@@ -26,7 +26,7 @@ from Crypto.Util.Padding import pad, unpad
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 TOKEN = "8309221223:AAGyaupl6l3hw6jZY-UoOv0zpdp3hhNq0DI"
-ADMIN_IDS = [6997272524]
+ADMIN_IDS = [6997272524,8101048402]
 
 bot = telebot.TeleBot(TOKEN, parse_mode="HTML")
 
