@@ -1762,7 +1762,7 @@ class FF_CLient():
 def start_account(account):
     try:
         print(f"Starting account: {account['id']}")
-        FF_CLient(account['id'], account['password'])
+        FF_Client(account['id'], account['password'])
     except Exception as e:
         print(f"Error starting account {account['id']}: {e}")
         time.sleep(5)
