@@ -390,7 +390,7 @@ def start(message):
             "• <code>/stop_room ID</code> - Stop room spam\n"
             "• <code>/restart</code> - Restart accounts\n"
             "• <code>/accounts_status</code> - Check accounts status\n\n"
-            "<b>👨‍💻 Support:</b> @AlliFF_BOT"
+            "<b>👨‍💻 Support:</b> @picos0"
         )
     else:
         msg = (
@@ -409,7 +409,7 @@ def start(message):
             "• <code>/status ID</code> - Check spam status\n"
             "• <code>/stop_spam ID</code> - Stop normal spam\n"
             "• <code>/stop_room ID</code> - Stop room spam\n\n"
-            "<b>👨‍💻 Support:</b> @AlliFF_BOT"
+            "<b>👨‍💻 Support:</b> @picos0"
         )
     
     bot.reply_to(message, msg)
