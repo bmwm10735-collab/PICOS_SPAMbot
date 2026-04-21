@@ -1,1 +1,0 @@
-# PICOS_SPAMbot
